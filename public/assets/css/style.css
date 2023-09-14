@@ -2,10 +2,19 @@ body {
     margin: 0;
 }
 
-#backNav {
-    background-color: #212529;
-}
 
+/* ID selectors */
 #style-links {
     text-decoration: none;
+}
+/* main */
+#imgSize {
+    height: 200px;
+    width: 100vw;
+    
+
+}
+/* footer */
+#blackNav {
+    background-color: #212529;
 }
