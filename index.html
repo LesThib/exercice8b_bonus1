@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./public/assets/framework/bootstrap.min.css">
     <script src="./public/assets/framework/bootstrap.min.js"></script>
     <link rel="stylesheet" href="./public/assets/css/style.css">
@@ -10,33 +11,65 @@
 </head>
 <body>
     <header>
-    <div class="container-fluid bg-primary">header
-        <!-- <h1>Ma première page Bootstrap 5 h1</h1> -->
-        <!-- <p>En redimensionnant la page dans le navigateur, on voit le responsive en action !</p> -->
+    <div class="container-fluid bg-light text-center">
+        <h1>Ma première page Bootstrap 5 h1</h1>
+        <p>En redimensionnant la page dans le navigateur, on voit le responsive en action !</p>
     </div>
-    </header>
-    <div class="container-fluid bg-secondary">
-        <div class="container bg-success">navbar</div>
-    </div>  
-    
-    
 
+    <div class="container-fluid">
+        <div class="container bg-info  ">
+            <div
+            >navbar
+    
+            </div>
+
+    </div>
+
+
+
+
+
+    </header>
+    
     <main>
-        <!-- d-flex  flex-row -->
-    <div class="container bg-info  ">
-        <!-- d-flex  flex-row permentent de faire du flex -->
+        
+    
         <div class="row justify-content-center">
-            <div class="col-12 col-xl-6  bg-primary">about me</div>
-            <div class="col-12 col-xl-6 bg-danger">sectionX3</div>
+            <div class="col-12 col-md-4  bg-primary">about me</div>
+            <div class="col-12 col-md-8 bg-danger">sectionX3</div>
         </div>
     </div>  
     </main>
+
     <footer>
-    <div class="container-fluid bg-dark">footer
-        <div class="container-fluid bg-light">.</div>
-        <div class="container-fluid bg-danger">gnu</div>
+    <div id="backNav">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="p-3">   
+                            <div class="col text-center">
+                                <p class="text-white">Inscription à la newsletter</p>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 col-md-6">
+                                        <input type="text" class="form-control" placeholder="name@example.com" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row text-center p-3">
+                            <div class="col-12 col-md-6">
+                                <a id="style-links" class="link-light" href="https://lamanu.fr/conditions-generales-utilisation/">Mentions Légales</a>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <a id="style-links" class="link-light" href="https://lamanu.fr/">
+                                Site by La Manu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
     </div> 
     </footer>
-    
 </body>
 </html>
